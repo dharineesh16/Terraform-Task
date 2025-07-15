@@ -10,7 +10,7 @@ provider "aws" {
 
 resource "aws_instance" "south_instance" {
   provider      = aws.ap-south
-  ami           = "ami-0f918f7e67a3323f0"
+  ami           = "ami-0a1235697f4afa8a4"
   instance_type = "t2.micro"
 
   tags = {
@@ -20,7 +20,7 @@ resource "aws_instance" "south_instance" {
 
 resource "aws_instance" "southeast_instance" {
   provider      = aws.ap-southeast
-  ami           = "ami-0f918f7e67a3323f0"
+  ami           = "ami-0e7f9c9fced6cfb10"
   instance_type = "t2.micro"
 
   tags = {
